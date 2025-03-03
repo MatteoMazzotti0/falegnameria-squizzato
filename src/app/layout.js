@@ -4,7 +4,7 @@ import "./bootstrap.css";
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-bs-theme="dark">
+    <html lang="en" data-bs-theme="light">
       <body>
         <header>
           <Script src="/scripts/bootstrap.bundle.js" />

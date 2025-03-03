@@ -12057,4 +12057,15 @@ textarea.form-control-lg {
 .swiper-element
 {
   padding-bottom: 56.25%;
+  position: relative;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-weight: 500;
+  text-transform:uppercase;
 }
