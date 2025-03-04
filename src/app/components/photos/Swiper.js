@@ -21,7 +21,7 @@ const Swiper = () => {
                                 objectFit="cover"
                             />
                             <div className="carousel-caption">
-                                <p>Welcome to the first slide! Here's a beautiful photo of nature.</p>
+                                <p>Testo di prova.</p>
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ const Swiper = () => {
                                 objectFit="cover"
                             />
                             <div className="carousel-caption">
-                                <p>This is the second slide. A lovely sunset to enjoy.</p>
+                                <p>Testo di prova.</p>
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ const Swiper = () => {
                                 objectFit="cover"
                             />
                             <div className="carousel-caption">
-                                <p>Here's the third slide with a breathtaking view of the mountains.</p>
+                                <p>Testo di prova.</p>
                             </div>
                         </div>
                     </div>

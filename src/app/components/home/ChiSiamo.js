@@ -14,11 +14,18 @@ let ChiSiamo = () => {
                         </div>
                     </div>
                     <div className="col">
-                        <Image src="/images/home/chi_siamo.jpg" className="rounded-5" alt="..." width={450} height={550} />
+                        <Image
+                            src="/images/home/chi_siamo.jpg"
+                            className="rounded-5 img-fluid"
+                            alt="Chi Siamo"
+                            width={450}
+                            height={550}
+                        />
                     </div>
                 </div>
             </div>
         </div>
     );
 }
+
 export default ChiSiamo;
