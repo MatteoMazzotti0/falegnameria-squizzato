@@ -2,9 +2,9 @@ import Image from "next/image";
 
 let ChiSiamo = () => {
     return (
-        <div className="container text-center" id="ChiSiamo">
-            <div className="card rounded-5 p-5 bg-light border-light shadow">
-                <div className="row row-cols-1 row-cols-lg-2 g-1 d-flex align-items-center">
+        <div className="container-fluid text-center" id="ChiSiamo">
+            <div className="card rounded-5 p-5 bg-light border-light">
+                <div className="row row-cols-1 g-1 d-flex ">
                     <div className="col">
                         <h2>Chi Siamo</h2>
                         <div className="card-body">
@@ -15,11 +15,11 @@ let ChiSiamo = () => {
                     </div>
                     <div className="col">
                         <Image
-                            src="/images/home/chi_siamo.jpg"
+                            src="/images/SquizzatoVasco.5.jpg"
                             className="rounded-5 img-fluid"
                             alt="Chi Siamo"
-                            width={450}
-                            height={550}
+                            width={1350}
+                            height={450}
                         />
                     </div>
                 </div>
